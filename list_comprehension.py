@@ -13,7 +13,12 @@
 # print(l)
 
 # SET COMPREHENSION
-s1 = eval(input("enter a set"))
-s2 = eval(input("enter a set"))
-s = {i for i in s1 if i in s2}
-print(s)
+# s1 = eval(input("enter a set"))
+# s2 = eval(input("enter a set"))
+# s = {i for i in s1 if i in s2}
+# print(s)
+
+# DICTIONSRY COMPREHENSION
+l = [1,2,3,4,5,6,7,8]
+print({i:l[i] for i in range(len(l))})
+
