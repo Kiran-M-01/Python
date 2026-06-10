@@ -22,9 +22,9 @@
 # l = [1,2,3,4,5,6,7,8]
 # print({i:l[i] for i in range(len(l))})
 
-l1 = [10,20,30,40,50]
-l2 = [1,2,3,4,5]
+l1 = [10,20,30,40,50,'hi',[1,2,3],60,70]
+l2 = [1,2,3,4,5,6,7]
 # print({l1[i]: l2[i] for i in range(len(l1))})
 
-print({i: j for i,j in zip(l1,l2)})
+print({i: j for i,j in zip(l1,l2) if type(i) not in [list,set,dict]})
 
