@@ -28,3 +28,13 @@ l2 = [1,2,3,4,5,6,7]
 
 print({i: j for i,j in zip(l1,l2) if type(i) not in [list,set,dict]})
 
+
+#GENERATOR
+def sam():
+    print("Hello, World!")
+    yield 1
+    print("Welcome to Python!")
+    yield 2
+s = sam()
+print(next(s))
+print(next(s))
