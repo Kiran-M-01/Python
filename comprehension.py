@@ -24,6 +24,7 @@
 
 l1 = [10,20,30,40,50]
 l2 = [1,2,3,4,5]
-print({l1[i]: l2[i] for i in range(len(l1))})
+# print({l1[i]: l2[i] for i in range(len(l1))})
 
+print({i: j for i,j in zip(l1,l2)})
 
