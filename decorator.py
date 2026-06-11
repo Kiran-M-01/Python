@@ -3,7 +3,7 @@ def instagram(func):
         print("open instagram")
         print("login")
         func(*args, **kwargs)
-        print("exit instagram")
+        print("logout from instagram")
     return wrapper
 
 @instagram
@@ -19,3 +19,5 @@ def darshu():
     print("chat with raghu")
 
 sangu()
+
+# harsha()
