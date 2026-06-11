@@ -15,9 +15,9 @@ def harsha():
     print("chat with pooja")
 
 @instagram
-def darshu():
+def darshan():
     print("chat with raghu")
 
 sangu()
-
 harsha()
+darshan()
