@@ -5,9 +5,9 @@
 # f.write('hello everyone')
 # f.close()
 
-# f = open("sam.txt", 'w')
-# f.writelines('good morning everyone \nhow are you \nI am fine\n')
-# f.close()
+f = open("sam.txt", 'w')
+f.writelines('good morning everyone \nhow are you \nI am fine\n')
+f.close()
 
 # --------READ----
 # f = open("sam.txt", 'r')
@@ -29,4 +29,9 @@
 f = open("sam.txt", 'a')
 f.write('today is 12th jun')
 f.close()
+
+f = open("sam.txt", 'w')
+f.seek(5)
+f.close()
+
 
