@@ -30,8 +30,11 @@ f = open("sam.txt", 'a')
 f.write('today is 12th jun')
 f.close()
 
-f = open("sam.txt", 'w')
+f = open("sam.txt", 'a+')
 f.seek(5)
+data = f.read()
+print(f.tell())   
+print(data)
 f.close()
 
 
