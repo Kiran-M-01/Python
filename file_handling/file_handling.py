@@ -10,11 +10,16 @@
 
 # READ
 # f = open("sam.txt", 'r')
-# data = f.read()
+# data = f.read()      # COMPLETE FILE
+# print(data)
+# f.close()
+
+# f = open("sam.txt", 'r')
+# data = f.readline()  # FIRST LINE
 # print(data)
 # f.close()
 
 f = open("sam.txt", 'r')
-data = f.read()
+data = f.readline()  # FIRST LINE
 print(data)
 f.close()
