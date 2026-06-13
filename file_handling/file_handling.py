@@ -6,7 +6,7 @@
 # f.close()
 
 f = open("sam.txt", 'w')
-f.writelines('good morning everyone \nhow are you \nI am fine\n')
+f.writelines('good morning everyone \nhow are you all \nI am fine\n')
 f.close()
 
 # --------READ----
@@ -30,11 +30,11 @@ f = open("sam.txt", 'a')
 f.write('today is 12th jun')
 f.close()
 
-f = open("sam.txt", 'a+')
-f.seek(5)
-data = f.read()
-print(f.tell())   
-print(data)
-f.close()
+# f = open("sam.txt", 'a+')
+# f.seek(5)
+# data = f.read()
+# print(f.tell())   
+# print(data)
+# f.close()
 
 
