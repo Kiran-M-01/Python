@@ -6,7 +6,7 @@
 # f.close()
 
 f = open("sam.txt", 'w')
-f.writelines('good morning everyone \nhow are you all \nI am fine\n')
+f.writelines('hello everyone \nhow are you all \nI am good\n')
 f.close()
 
 # --------READ----
