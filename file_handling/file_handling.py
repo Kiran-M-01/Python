@@ -27,7 +27,7 @@ f.close()
 
 # ----APPEND----
 f = open("sam.txt", 'a')
-f.write('today is 12th jun')
+f.write('today is 13th jun')
 f.close()
 
 # f = open("sam.txt", 'a+')
