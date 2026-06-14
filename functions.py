@@ -108,48 +108,48 @@
 
 # # STRONG NUMBER
 
-# def is_strong(num):
-#     tempNum = num
-#     summ = 0
-#     while num != 0:
-#         l = num % 10
-#         summ += fact(l)
-#         num //= 10
-#     if tempNum == summ:
-#         return sum
-#     #     print("strong number",num)
-#     # else:
-#     #     print("Not a strong number",num)
-# # is_strong(145)
-# def strongBtw1To50k(m,n):
-#     for i in range(m,n):
-#         if is_strong(i):
-#             print(i)
+def is_strong(num):
+    tempNum = num
+    summ = 0
+    while num != 0:
+        l = num % 10
+        summ += fact(l)
+        num //= 10
+    if tempNum == summ:
+        return sum
+    #     print("strong number",num)
+    # else:
+    #     print("Not a strong number",num)
+# is_strong(145)
+def strongBtw1To50k(m,n):
+    for i in range(m,n):
+        if is_strong(i):
+            print(i)
 
-# strongBtw1To50k(1,100)
+strongBtw1To50k(1,100)
 
 # # AMSTRONG NUMBER
-def amstrong(num):
-    a = str(num)
-    length = len(a)
-    sum1 = 0
-    temp = num
-    while num != 0:
-        d = num % 10
-        sum1 += d ** length
-        num //= 10
-    if temp == sum1:
-        return True
-    #     print("amstrong number")
-    # else:
-    #     print('not amstrong number')
-# amstrong(153)
+# def amstrong(num):
+#     a = str(num)
+#     length = len(a)
+#     sum1 = 0
+#     temp = num
+#     while num != 0:
+#         d = num % 10
+#         sum1 += d ** length
+#         num //= 10
+#     if temp == sum1:
+#         return True
+#     #     print("amstrong number")
+#     # else:
+#     #     print('not amstrong number')
+# # amstrong(153)
 
-def ams_50(m,n):
-    for i in range(m,n):
-        if amstrong(i):
-            print(i)
-ams_50(1,50000)
+# def ams_50(m,n):
+#     for i in range(m,n):
+#         if amstrong(i):
+#             print(i)
+# ams_50(1,50000)
 
 
 
