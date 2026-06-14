@@ -73,14 +73,14 @@
 #     return out    
 # print(kabab('kabab is love'))
 
-# FACTIRIAL
-# def fact(n):
-#     res = 1
-#     for i in range(1,n+1):
-#         res *= i
-#     return res
+# FACTORIAL
+def fact(n):
+    res = 1
+    for i in range(1,n+1):
+        res *= i
+    return res
 
-# # print(fact(4))
+# print(fact(4))
 
 # # STRONG NUMBER
 
