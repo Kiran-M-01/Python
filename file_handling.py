@@ -5,9 +5,9 @@
 # f.write('hello everyone')   # for writing single line
 # f.close()
 
-f = open("sam.txt", 'w')
-f.writelines('hello everyone \nhow are you all \nI am good\n')   #for writing multiple line
-f.close()
+# f = open("sam.txt", 'w')
+# f.writelines('hello everyone \nhow are you all \nI am good\n')   #for writing multiple line
+# f.close()
 
 # --------READ----
 # f = open("sam.txt", 'r')
@@ -26,9 +26,9 @@ f.close()
 # f.close()
 
 # ----APPEND----
-f = open("sam.txt", 'a')
-f.write('today is 13th jun')
-f.close()
+# f = open("sam.txt", 'a')
+# f.write('today is 13th jun')
+# f.close()
 
 # f = open("sam.txt", 'a+')
 # f.seek(5)
@@ -37,4 +37,8 @@ f.close()
 # print(data)
 # f.close()
 
+# --------------------------------------------------------------------------------
 
+f = open("sam.txt", 'w')
+f.writelines('poorvaj \n bharath \nkushal \nkiran\n')   #for writing multiple line
+f.close()
