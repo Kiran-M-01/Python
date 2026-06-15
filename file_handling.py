@@ -2,11 +2,11 @@
 
 # -------WRITE ----------- 
 # f = open("sam.txt", 'w')
-# f.write('hello everyone')
+# f.write('hello everyone')   # for writing single line
 # f.close()
 
 f = open("sam.txt", 'w')
-f.writelines('hello everyone \nhow are you all \nI am good\n')
+f.writelines('hello everyone \nhow are you all \nI am good\n')   #for writing multiple line
 f.close()
 
 # --------READ----
