@@ -53,4 +53,7 @@ print(data)
 f.close()
 #---------- APPEND ---------
 
-
+f = open("sam.txt", 'a')
+f.write('hi\n')
+# f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
+f.close()
