@@ -16,7 +16,7 @@
 # f.close()
 
 # f = open("sam.txt", 'r')
-# data = f.readline()  # FIRST LINE
+# data = f.readline()  # ONE LINE AT A TIME
 # print(data)
 # f.close()
 
@@ -40,5 +40,6 @@
 # --------------------------------------------------------------------------------
 
 f = open("sam.txt", 'w')
-f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
+f.write('hi')
+# f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
 f.close()
