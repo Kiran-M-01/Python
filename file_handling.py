@@ -44,13 +44,13 @@
 # f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
 # f.close()
 #--READD----
-# f = open("sam.txt", 'r')
-# data = f.read()
-# data = f.readline()
-# data = f.readlines()
+f = open("sam.txt", 'r')
+data = f.read()
+data = f.readline()
+data = f.readlines()
 
-# print(data)
-# f.close()
+print(data)
+f.close()
 #---------- APPEND ---------
 
 
