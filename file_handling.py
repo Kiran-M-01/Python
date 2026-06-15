@@ -44,16 +44,19 @@
 # f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
 # f.close()
 #--READD----
-f = open("sam.txt", 'r')
-data = f.read()
-data = f.readline()
-data = f.readlines()
+# f = open("sam.txt", 'r')
+# data = f.read()
+# data = f.readline()
+# data = f.readlines()
 
-print(data)
-f.close()
-#---------- APPEND ---------
+# print(data)
+# f.close()
+# #---------- APPEND ---------
 
-f = open("sam.txt", 'a+')
-f.write('hi\n')
-# f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
-f.close()
+# f = open("sam.txt", 'a+')
+# f.write('hi\n')
+# # f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
+# f.close()
+
+# --------------------------------------------------------------------------
+# BINARY MODE
