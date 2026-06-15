@@ -41,5 +41,5 @@
 
 f = open("sam.txt", 'w')
 f.write('hi')
-# f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
+f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
 f.close()
