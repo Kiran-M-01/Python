@@ -39,10 +39,10 @@
 
 # --------------------------------------------------------------------------------
 
-# f = open("sam.txt", 'w')
-# f.write('hi\n')
-# f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
-# f.close()
+f = open("sam.txt", 'w')
+f.write('hi\n')
+f.writelines('poorvaj \nbharath \nkushal \nkiran\n')   #for writing multiple line
+f.close()
 
 f = open("sam.txt", 'r')
 data = f.read()
