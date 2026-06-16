@@ -1,6 +1,7 @@
 import csv
 
 # CREATING / WRITING CSV FILE
+
 # f = open("file.csv",'w')
 # a = csv.writer(f)
 # a.writerow(['name',"age","ph_no",'marks'])
@@ -8,6 +9,7 @@ import csv
 # f.close()
 
 # READING CSV FILE
+
 # f = open("file.csv",'r')
 # data = csv.reader(f)
 # # print(list(data))
@@ -15,7 +17,9 @@ import csv
 # f.close()
 
 # APPENDING DATA TO CSV FILE
+
 f = open("file.csv",'a', newline='')
 a = csv.writer(f)
 a.writerow(['kiran',"22","998833",'75'])
 f.close()
+
