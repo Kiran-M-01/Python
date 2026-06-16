@@ -1,14 +1,14 @@
 # # WITHOUT ARDUMENT WITHOUT RETURN
 # # DECIMAL TO BINARY
-def decimalToBinary():
-    n = int(input("Enter :"))
-    binary = ''
-    while n != 0:
-        rem = n%2
-        binary = str(rem) + binary
-        n//=2
-    print(binary)
-decimalToBinary()
+# def decimalToBinary():
+#     n = int(input("Enter :"))
+#     binary = ''
+#     while n != 0:
+#         rem = n%2
+#         binary = str(rem) + binary
+#         n//=2
+#     print(binary)
+# decimalToBinary()
 # # # 
 # # # BINARY TO DECIMAL
 # # def binaryToDecimal():
