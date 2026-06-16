@@ -9,4 +9,6 @@ import csv
 # READING CSV FILE
 f = open("file.csv",'r')
 data = csv.reader(f)
-print(list(data))
+# print(list(data))
+print([i for i in data if i!= []])
+f.close()
