@@ -1,3 +1,4 @@
+#   DECIMAL TO BIANRY AND BINARY TO DECIMAL
 # def dec_to_bin():
 #     n = int(input("Enter :"))
 #     binary = ''
@@ -19,4 +20,15 @@
 #         p += 1
 #     print(decimal)
 # bin_to_dec()
+
+# FIBONACCI SERIES
+def fib():
+    n = int(input("neter a number : "))
+    fibb = []
+    a,b = 0,1
+    for i in range(n):
+        fibb.append(a)
+        a,b = b,a+b
+    return fibb
+print(fib())
 
