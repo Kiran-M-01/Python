@@ -30,7 +30,7 @@
 class NotEligibleError(Exception):
     pass
 n = int(input("enter a number :"))
-if n > 18:
+if n >= 18:
     print("Eligible")
 else:
     raise NotEligibleError("you are not eligible")
