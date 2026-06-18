@@ -22,13 +22,15 @@
 # bin_to_dec()
 
 # FIBONACCI SERIES
-def fib():
-    n = int(input("neter a number : "))
-    fibb = []
-    a,b = 0,1
-    for i in range(n):
-        fibb.append(a)
-        a,b = b,a+b
-    return fibb
-print(fib())
+# def fib():
+#     n = int(input("neter a number : "))
+#     fibb = []
+#     a,b = 0,1
+#     for i in range(n):
+#         fibb.append(a)
+#         a,b = b,a+b
+#     return fibb
+# print(fib())
+
+# STRONG NUMBER AND FACTORIAL
 
