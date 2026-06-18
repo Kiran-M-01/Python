@@ -40,15 +40,15 @@
 # #     return a + b
 # # print(add())
 
-def fib():
-    n = int(input( ))
-    a,b = 0,1
-    fib = []
-    for i in range(n):
-        fib.append(a)
-        a,b = b,a+b
-    return fib
-print(fib())
+# def fib():
+#     n = int(input( ))
+#     a,b = 0,1
+#     fib = []
+#     for i in range(n):
+#         fib.append(a)
+#         a,b = b,a+b
+#     return fib
+# print(fib())
 
 # # FUNCTION WITH ARGUMENT AND WITH RETURN
 # # def add(a,b):
