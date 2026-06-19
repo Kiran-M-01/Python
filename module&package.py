@@ -4,4 +4,6 @@
 # module1.sub(2,3)
 # module1.power(2,3)
 
-from m
+# from module1 import power
+
+# power(2,4)
