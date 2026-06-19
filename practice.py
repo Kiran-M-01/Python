@@ -42,3 +42,23 @@ def fact(n):
     return res
 # print(fact(int(input("enter : "))))
 
+def strong():
+    n = int(input("enter : "))
+    temp = n
+    res = 0
+    while n > 0:
+        l = n % 10
+        res += fact(l)
+        n //= 10
+
+    if temp == res:
+        print("strong number")
+    else:
+        print("not strong number")
+
+strong()
+    
+
+        
+
+
