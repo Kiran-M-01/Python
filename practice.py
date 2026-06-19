@@ -33,4 +33,12 @@
 # print(fib())
 
 # STRONG NUMBER AND FACTORIAL
+# factorial
+
+def fact(n):
+    res = 1
+    for i in range(1,n+1):
+        res *= i
+    return res
+# print(fact(int(input("enter : "))))
 
