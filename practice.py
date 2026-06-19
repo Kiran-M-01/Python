@@ -1,4 +1,4 @@
-#   DECIMAL TO BIANRY AND BINARY TO DECIMAL
+#   DECIMAL TO BIANRY AND BINARY TO DECIMAL ----------
 # def dec_to_bin():
 #     n = int(input("Enter :"))
 #     binary = ''
@@ -21,7 +21,7 @@
 #     print(decimal)
 # bin_to_dec()
 
-# FIBONACCI SERIES
+# FIBONACCI SERIES ---------
 # def fib():
 #     n = int(input("neter a number : "))
 #     fibb = []
@@ -32,31 +32,59 @@
 #     return fibb
 # print(fib())
 
-# STRONG NUMBER AND FACTORIAL
+# STRONG NUMBER AND FACTORIAL ---------
 # factorial
 
-def fact(n):
-    res = 1
-    for i in range(1,n+1):
-        res *= i
-    return res
-# print(fact(int(input("enter : "))))
+# def fact(n):
+#     res = 1
+#     for i in range(1,n+1):
+#         res *= i
+#     return res
+# # print(fact(int(input("enter : "))))
 
-def strong():
+# def strong():
+#     n = int(input("enter : "))
+#     temp = n
+#     res = 0
+#     while n > 0:
+#         l = n % 10
+#         res += fact(l)
+#         n //= 10
+
+#     if temp == res:
+#         print("strong number")
+#     else:
+#         print("not strong number")
+
+# strong()
+
+# ARMSTRONG NUMBER
+def pow(n):
+    count = 0
+    while n > 0:
+        count += 1
+        n//=10
+    return count
+# print(pow(123456789))
+
+def arm_strong():
     n = int(input("enter : "))
+    digits = pow(n)
     temp = n
     res = 0
-    while n > 0:
+    while n != 0:
         l = n % 10
-        res += fact(l)
+        res += l ** digits
         n //= 10
 
     if temp == res:
-        print("strong number")
+        print("arm strong number")
     else:
-        print("not strong number")
+        print("not arm strong number")
 
-strong()
+arm_strong()
+
+
     
 
         
