@@ -65,7 +65,7 @@ def pow(n):
         count += 1
         n//=10
     return count
-# print(pow(123456789))
+print(pow(123456789))
 
 # def arm_strong():
 #     n = int(input("enter : "))
