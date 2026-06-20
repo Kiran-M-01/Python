@@ -69,8 +69,8 @@ def pow(n):
 
 def arm_strong():
     n = int(input("enter : "))
-    digits = pow(n)
-    # digits = len(str(n))
+    # digits = pow(n)
+    digits = len(str(n))
     temp = n
     res = 0
     while n != 0:
