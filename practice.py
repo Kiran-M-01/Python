@@ -67,23 +67,23 @@ def pow(n):
     return count
 # print(pow(123456789))
 
-def arm_strong():
-    n = int(input("enter : "))
-    # digits = pow(n)
-    digits = len(str(n))
-    temp = n
-    res = 0
-    while n != 0:
-        l = n % 10
-        res += l ** digits
-        n //= 10
+# def arm_strong():
+#     n = int(input("enter : "))
+#     # digits = pow(n)
+#     digits = len(str(n))
+#     temp = n
+#     res = 0
+#     while n != 0:
+#         l = n % 10
+#         res += l ** digits
+#         n //= 10
 
-    if temp == res:
-        print("arm strong number")
-    else:
-        print("not arm strong number")
+#     if temp == res:
+#         print("arm strong number")
+#     else:
+#         print("not arm strong number")
 
-arm_strong()
+# arm_strong()
     
 
         
