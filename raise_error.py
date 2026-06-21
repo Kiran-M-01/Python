@@ -51,20 +51,20 @@
 #     raise NotSpecialCharecter("not a special charecter")
 
 # 4
-# class InsufficientBalanceError(Exception):
-#     pass
+class InsufficientBalanceError(Exception):
+    pass
 
 
-# class account():
-#     def __init__(self,bal):
-#         self.bal = bal
-#     def withdraw(self):
-#         amt = int(input("enter amount to withdraw : "))
-#         if self.bal > amt :
-#             self.bal -= amt
-#             print("withdraw success full",self.bal)
-#         else:
-#             raise InsufficientBalanceError("enter less amount")
+class account():
+    def __init__(self,bal):
+        self.bal = bal
+    def withdraw(self):
+        amt = int(input("enter amount to withdraw : "))
+        if self.bal > amt :
+            self.bal -= amt
+            print("withdraw success full",self.bal)
+        else:
+            raise InsufficientBalanceError("enter less amount")
 
-# ob = account(1000)
-# ob.withdraw() 
+ob = account(1000)
+ob.withdraw() 
