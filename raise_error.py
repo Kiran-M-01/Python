@@ -28,14 +28,14 @@
 #     raise NegativeNumberError("you entered negative number")
 
 # 2
-class NotEligibleError(Exception):
-    pass
+# class NotEligibleError(Exception):
+#     pass
 
-n = int(input("enter a number :"))
-if n >= 18:
-    print("Eligible")
-else:
-    raise NotEligibleError("you are not eligible")
+# n = int(input("enter a number :"))
+# if n >= 18:
+#     print("Eligible")
+# else:
+#     raise NotEligibleError("you are not eligible")
 
 # 3
 # class NotSpecialCharecter(Exception):
