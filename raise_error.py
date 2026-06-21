@@ -38,17 +38,17 @@
 #     raise NotEligibleError("you are not eligible")
 
 # 3
-# class NotSpecialCharecter(Exception):
-#     pass
+class NotSpecialCharecter(Exception):
+    pass
 
-# ch = input("enter a char :")
-# if (32 <= ord(ch) <= 47) or \
-#    (58 <= ord(ch) <= 64) or \
-#    (91 <= ord(ch) <= 96) or \
-#    (123 <= ord(ch) <= 126):
-#     print("Special Character")
-# else:
-#     raise NotSpecialCharecter("not a special charecter")
+ch = input("enter a char :")
+if (32 <= ord(ch) <= 47) or \
+   (58 <= ord(ch) <= 64) or \
+   (91 <= ord(ch) <= 96) or \
+   (123 <= ord(ch) <= 126):
+    print("Special Character")
+else:
+    raise NotSpecialCharecter("not a special charecter")
 
 # 4
 # class InsufficientBalanceError(Exception):
