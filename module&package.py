@@ -9,5 +9,5 @@
 # from module1 import *
 # sub(2,4)
 
-from package import module2
-module2.power(2,3)
+from package import module1
+module1.sub(2,3)
