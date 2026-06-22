@@ -6,5 +6,8 @@
 # from module1 import power
 # power(2,4)
 
-from module1 import *
-sub(2,4)
+# from module1 import *
+# sub(2,4)
+
+from package import module2
+module2.power(2,3)
