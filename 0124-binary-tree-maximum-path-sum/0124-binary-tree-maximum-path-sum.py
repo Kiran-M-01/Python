@@ -8,21 +8,13 @@ class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         self.max_sum = float('-inf')
 
-        def max_gain(node):
-            if not node:
+        def dfs(root):
+            if not root:
                 return 0
+            left = max(0, dfs(root.left))
+            right = max(0, dfs(root.right))
+            self.max_sum = max(self.max_sum , right + left + root.val)
+            return max(left, right) + root.val
 
-            # Recursively get max gain from left and right subtrees.
-            # Discard negative gains (they'd only hurt the sum).
-            left_gain = max(max_gain(node.left), 0)
-            right_gain = max(max_gain(node.right), 0)
-
-            # Best path if this node is the "peak" (uses both branches)
-            price_newpath = node.val + left_gain + right_gain
-            self.max_sum = max(self.max_sum, price_newpath)
-
-            # What we return upward: node can only extend ONE branch
-            return node.val + max(left_gain, right_gain)
-
-        max_gain(root)
+        dfs(root)
         return self.max_sum
