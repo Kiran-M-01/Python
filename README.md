@@ -33,6 +33,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kiran-M-01/Python/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -43,4 +44,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kiran-M-01/Python/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
 <!---LeetCode Topics End-->
