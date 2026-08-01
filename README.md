@@ -43,6 +43,7 @@
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Kiran-M-01/Python/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kiran-M-01/Python/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 ## Array
 | Problem Name | Difficulty |
@@ -57,8 +58,21 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
+| [0295-find-median-from-data-stream](https://github.com/Kiran-M-01/Python/tree/main/0295-find-median-from-data-stream/) | Hard |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/Kiran-M-01/Python/tree/main/0238-product-of-array-except-self/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Kiran-M-01/Python/tree/main/0295-find-median-from-data-stream/) | Hard |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Kiran-M-01/Python/tree/main/0295-find-median-from-data-stream/) | Hard |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Kiran-M-01/Python/tree/main/0295-find-median-from-data-stream/) | Hard |
 <!---LeetCode Topics End-->
