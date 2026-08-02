@@ -30,6 +30,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Kiran-M-01/Python/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0877-stone-game](https://github.com/Kiran-M-01/Python/tree/main/0877-stone-game/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -50,6 +51,7 @@
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/Kiran-M-01/Python/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0877-stone-game](https://github.com/Kiran-M-01/Python/tree/main/0877-stone-game/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -75,4 +77,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Kiran-M-01/Python/tree/main/0295-find-median-from-data-stream/) | Hard |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/Kiran-M-01/Python/tree/main/0877-stone-game/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0877-stone-game](https://github.com/Kiran-M-01/Python/tree/main/0877-stone-game/) | Medium |
 <!---LeetCode Topics End-->
