@@ -50,12 +50,14 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/Kiran-M-01/Python/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/Kiran-M-01/Python/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0877-stone-game](https://github.com/Kiran-M-01/Python/tree/main/0877-stone-game/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/Kiran-M-01/Python/tree/main/0128-longest-consecutive-sequence/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -85,4 +87,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0877-stone-game](https://github.com/Kiran-M-01/Python/tree/main/0877-stone-game/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Kiran-M-01/Python/tree/main/0128-longest-consecutive-sequence/) | Medium |
 <!---LeetCode Topics End-->
