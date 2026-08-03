@@ -36,6 +36,7 @@
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kiran-M-01/Python/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Kiran-M-01/Python/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -83,6 +84,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0877-stone-game](https://github.com/Kiran-M-01/Python/tree/main/0877-stone-game/) | Medium |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Kiran-M-01/Python/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -91,4 +93,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Kiran-M-01/Python/tree/main/0128-longest-consecutive-sequence/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Kiran-M-01/Python/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 <!---LeetCode Topics End-->
