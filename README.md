@@ -34,6 +34,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Kiran-M-01/Python/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
 | [0125-valid-palindrome](https://github.com/Kiran-M-01/Python/tree/main/0125-valid-palindrome/) | Easy |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Kiran-M-01/Python/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
@@ -59,6 +60,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Kiran-M-01/Python/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0049-group-anagrams](https://github.com/Kiran-M-01/Python/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Kiran-M-01/Python/tree/main/0128-longest-consecutive-sequence/) | Medium |
 ## Sorting
@@ -102,4 +104,8 @@
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Kiran-M-01/Python/tree/main/0011-container-with-most-water/) | Medium |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Kiran-M-01/Python/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Kiran-M-01/Python/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 <!---LeetCode Topics End-->
