@@ -13,14 +13,27 @@ class Solution:
         #     res = max(res, r - l + 1)
         # return res
 
-        charSet = set()
         l = 0
+        charSet = set()
         res = 0
         for r in range(len(s)):
             while s[r] in charSet:
                 charSet.remove(s[l])
                 l += 1
-            
             charSet.add(s[r])
             res = max(res, r - l + 1)
         return res
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
