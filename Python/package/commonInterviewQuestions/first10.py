@@ -62,15 +62,35 @@
 # print(fact(7))
 
 # 8.9. Generate Fibonacci Series, nth fibonacci number
-def fib(n):
-    a = 0
-    b = 1
-    for i in range(n+1):
-        # print(a)
-        a,b = b,a+b
-    return a
+# def fib(n):
+#     a = 0
+#     b = 1
+#     for i in range(n+1):
+#         # print(a)
+#         a,b = b,a+b
+#     return a
 
-print(fib(5))
+# print(fib(5))
+
+# 10. Check if a Number is Armstrong
+def armStrong(n):
+    num = str(n)
+    number = n
+    res = 0
+    while n > 0:
+        l = n % 10
+        res += l ** len(num)
+        n //= 10
+    # return res
+    if res == number:
+        return f'Armstrong Number'
+    else:
+        return f'not Armstrong number'
+
+print(armStrong(372))
+
+
+
 
 
     
