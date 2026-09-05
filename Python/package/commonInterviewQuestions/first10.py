@@ -61,15 +61,16 @@
 
 # print(fact(7))
 
-# 8. Generate Fibonacci Series
+# 8.9. Generate Fibonacci Series, nth fibonacci number
 def fib(n):
     a = 0
     b = 1
     for i in range(n+1):
-        print(a)
+        # print(a)
         a,b = b,a+b
+    return a
 
-print(fib(7))
+print(fib(5))
 
 
     
